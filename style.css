@@ -23,7 +23,27 @@
 }
 
 .headerh1 h1 {
+
     
+}
+
+.mainform{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.registrationForm {
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-content: space-between;
+    align-items: center;
+
+}
+
+.mainForm .registrationForm h1 {
+    justify-content: center;
 }
 
 .formHeader {
@@ -39,4 +59,20 @@
     margin: 0 .3rem;
     border-radius: .3rem;
     font-size: 1rem;
+}
+
+.mainImg {
+    display: flex;
+}
+.mainImg .divImg img {
+    height: 500px;
+    width: 500px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
 }

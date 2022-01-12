@@ -1,6 +1,6 @@
-const buttom = document.querySelector('.btnLogin')
-const email = document.querySelector('.btnEmail')
-const senha = document.querySelector('.btnSenha')
+const buttom = document.querySelector('.btnLogin');
+const email = document.querySelector('.btnEmail');
+const senha = document.querySelector('.btnSenha');
 
 function testebuttom(event){
     let compEmail = "tryber@teste.com";
@@ -11,9 +11,6 @@ function testebuttom(event){
         return;
     } else {
         alert("Email ou senha inválidos.");
-
     }
-
 }
-
-buttom.addEventListener("click", testebuttom)
+buttom.addEventListener("click", testebuttom);
