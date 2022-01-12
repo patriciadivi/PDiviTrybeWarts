@@ -26,21 +26,33 @@
   font-size: 2rem; 
 }
 
+main{
+  display: flex;
+  flex-direction: row;
+}
+
 .mainform {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  
 }
 
-.mainform .registrationForm {
+#evaluation-form{
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+/* .mainform .registrationForm {
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
+  /* align-content: space-between; 
   align-items: center;
-}
+} 
 
-.mainForm .registrationForm h1 {
+/* .mainForm .registrationForm h1 {
   justify-content: center;
-}
+} */
 
 .formHeader {
   font-size: 1rem;
