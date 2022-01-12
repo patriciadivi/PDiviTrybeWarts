@@ -1,78 +1,75 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
 }
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: .8rem;
-    background-color: rgb(50, 167, 145);
-}
-.headerImg {
-    display: flex;
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: rgb(50, 167, 145);
+}
+
+.headerImg {
+  display: flex;
 }
 
 .trybewarts-header-logo {
-    height: 50px;
-    
+  height: 50px;
 }
 
-.headerh1 h1 {
-
-    
+.header .headerh1 h1 {
+  font-size: 2rem; 
 }
 
-.mainform{
-    display: flex;
-    justify-content: center;
-    
+.mainform {
+  display: flex;
+  justify-content: center;
 }
 
-.registrationForm {
-    display: flex;
-    flex-wrap: wrap;
-    
-    align-content: space-between;
-    align-items: center;
-
+.mainform .registrationForm {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: center;
 }
 
 .mainForm .registrationForm h1 {
-    justify-content: center;
+  justify-content: center;
 }
 
 .formHeader {
-
+  font-size: 1rem;
 }
 
 .trybewarts-login {
-    display: flex;
+  display: flex;
 }
 
-.trybewarts-login input, button {
-    padding: 0.5rem;
-    margin: 0 .3rem;
-    border-radius: .3rem;
-    font-size: 1rem;
+.formHeader .trybewarts-login input, button {
+  padding: 0.5rem;
+  margin: 0 0.3rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
 }
 
 .mainImg {
-    display: flex;
+  display: flex;
 }
+
 .mainImg .divImg img {
-    height: 500px;
-    width: 500px;
+  height: 500px;
+  width: 500px;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
 }
