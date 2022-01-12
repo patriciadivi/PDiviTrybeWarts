@@ -30,7 +30,6 @@ main {
 
 .mainform {
   display: flex;
-  flex-direction: column;
 }
 
 #evaluation-form {

@@ -33,23 +33,29 @@
         <section class="mainform">
             <Form class="registrationForm" id="evaluation-form"> <!-- acrescentei o id="evaluation-form" para cumprir o requisito 5-->
                 <h1>Formulário de Avaliação</h1>
-                <label for="name">
-                    <input type="text" placeholder="Nome" name="name" id="input-name"> <!-- Acrescentei 3 id's conforme requisito 8-->
-                </label>
-                <label for="surname">
-                    <input type="text" placeholder="Sobrenome" name="surname" id="input-lastname">
-                </label>
-                <label for="email">
-                    <input type="text" placeholder="Email" name="email" id="input-email">
-                </label>
-                <label for="">Casa:</label>
-                <select name="house" id="house">
-                    <option type="text" value="" id="">Escolha um opcão</option>
-                    <option type="text" value="Gitnória" id="gitnoria-house">Gitnória</option>
-                    <option type="text" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                    <option type="text" value="Corvinode" id="corvinode-house">Corvinode</option>
-                    <option type="text" value="Pytherina" id="pytherina-house">Pytherina</option>
-                </select>
+                <div class="nameSurname">
+                    <label for="name">
+                        <input type="text" placeholder="Nome" name="name" id="input-name"> <!-- Acrescentei 3 id's conforme requisito 8-->
+                    </label>
+                    <label for="surname">
+                        <input type="text" placeholder="Sobrenome" name="surname" id="input-lastname">
+                    </label>
+                </div>
+
+                <div class="emailOption">
+                    <label for="email">
+                        <input type="text" placeholder="Email" name="email" id="input-email">
+                    </label>
+                    <label for="">Casa:</label>
+                    <select name="house" id="house">
+                        <option type="text" value="" id="">Escolha um opcão</option>
+                        <option type="text" value="Gitnória" id="gitnoria-house">Gitnória</option>
+                        <option type="text" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                        <option type="text" value="Corvinode" id="corvinode-house">Corvinode</option>
+                        <option type="text" value="Pytherina" id="pytherina-house">Pytherina</option>
+                    </select>
+                </div>
+                
             </Form>
         </section> 
 
