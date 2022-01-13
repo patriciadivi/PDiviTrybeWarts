@@ -86,6 +86,10 @@ main {
   margin: 0 0 auto;
 }
 
+.container-labelRate {
+  display: flex;
+}
+
 .mainImg {
   display: flex;
   align-self: flex-end;
