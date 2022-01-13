@@ -24,8 +24,9 @@
 
 main {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .mainform {
@@ -53,18 +54,24 @@ main {
   font-size: 1rem;
 }
 
+.dice {
+  display: flex;
+  flex-direction: column;
+}
+
+.dice .checkFamily {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainImg {
+  display: flex;
+  align-self: flex-end;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
-
-/* .mainImg {
-  display: flex;
-} */
-
-/* .mainImg .divImg img {
-  height: 500px;
-  width: 500px;
-} */
 
 footer {
   position: fixed;
