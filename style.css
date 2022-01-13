@@ -31,12 +31,13 @@ main {
 
 .mainform {
   display: flex;
+  margin: 0 auto;
 }
 
 #evaluation-form {
   display: flex;
-  width: 675px;
   flex-direction: column;
+  width: 675px;
 }
 
 .formHeader {
@@ -56,12 +57,33 @@ main {
 
 .dice {
   display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.dice #label-family {
+  display: flex;
+}
+
+.dice .containerFamily .checkFamily {
+  display: flex;
   flex-direction: column;
 }
 
-.dice .checkFamily {
+.dice .contentToLearn {
+  display: flex;
+}
+
+.dice .containerFamily {
   display: flex;
   flex-direction: column;
+}
+
+.dice .containerFamily .contentOpinions {
+  display: flex;
+  flex-wrap: wrap;
+  width: 157px;
+  margin: 0 0 auto;
 }
 
 .mainImg {

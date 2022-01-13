@@ -57,23 +57,39 @@
                 </div>
                 
                 <section class="dice">
-                    
+                    <div class="containerFamily">
                     <div id="label-family">Qual sua família?</div>
-
-                    <div class="checkFamily">
-                        <label for="Frontend">
-                        <input type="radio" name="family" value="Frontend" id="Frontend">Família Frontend
-                        </label>
-        
-                        <label for="Backend">
-                            <input type="radio" name="family" value="Backend" id="Backend">Família Backend
-                        </label>
-        
-                        <label for="FullStack">
-                        <input type="radio" name="family" value="FullStack" id="FullStack">Família FullStack
-                        </label>
+                    
+                        <div class="checkFamily">
+                            <label for="Frontend">
+                            <input type="radio" value="Frontend" name="family" id="Frontend">Família Frontend
+                            </label>
+            
+                            <label for="Backend">
+                                <input type="radio" value="Backend" name="family" id="Backend">Família Backend
+                            </label>
+            
+                            <label for="FullStack">
+                            <input type="radio" value="FullStack" name="family" id="FullStack">Família FullStack
+                            </label>
+                        </div>
                     </div>
-        
+
+                    <div class="containerLearn">
+                        <div id="label-content">Qual conteúdo você está com mais vontade de aprender?</div>
+
+                            <div class="contentOpinions">
+                                <input type="checkbox" value="HoFs"  name="" id="cHoFs">HoFs
+                                <input type="checkbox" value="Jest"  name="" id="cJest">Jest
+                                <input type="checkbox" value="Promises"  name="" id="cPromises">Promises
+                                <input type="checkbox" value="React"  name="" id="cReact">React
+                                <input type="checkbox" value="SQL"  name="" id="cSQL">SQL
+                                <input type="checkbox" value="Python"  name="" id="cPython">Python
+
+                            </div>
+
+                    </div>
+
                 </section>
 
             </Form>
